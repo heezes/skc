@@ -1,0 +1,223 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.user-reg-wrapper {
+  width: 25%;
+  height: 60%;
+  /* background-color: #ddd; */
+}
+
+.kiosk-wrapper {
+  height: auto;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* background-color: #ddd; */
+}
+
+.kiosk-wrapper li{
+  margin: 20px 10px 20px 10px;
+}
+
+
+.user-details-wrapper{
+width: 358px;
+height: 161px;
+background: #FFD9D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+
+.user-name{
+  width: 358px;
+height: 88px;
+background: #FB753C;
+color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 12px;
+}
+.user-name p{
+display: block;
+}
+
+.consumption-details{
+  color: #535151;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+display: flex;
+justify-content: space-between;
+}
+
+.consumed-item{
+  width: 15%;
+  float: left;
+  margin: 10px;
+  text-align: center;
+}
+
+.consumed-item p:nth-child(2) {
+  font-size: 10px;
+}
+
+.item-list {
+  width: 357px;
+  height: 109px;
+  background: #d56d41;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  /* position: absolute; */
+}
+
+.item-list-wrapper{
+  width: 400px;
+  height: auto;
+}
+
+.item-list-desc{
+    width: 243px;
+    height: 109px;
+    background: #774A4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    float: right;
+    position: relative;
+}
+
+.item-list-order-div{
+  position: absolute; 
+  bottom: 0; 
+  width: 243px;
+  height: 30px;
+  background: #8D6969;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 16px 16px;
+  cursor: pointer;
+}
+
+.customise-item{
+  color: white;
+  float: left;
+  padding: 5px 20px 5px 25px;
+  width: 30%;
+}
+
+.customise-div{
+  width: 357px;
+  height: 110px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 16px 16px;
+  background: #ece9e9;
+  /* margin-top: 80px; */
+  /* position: absolute; */
+  /* z-index: -1; */
+  display: none;
+}
+
+
+.milk-slidecontainer, .volume-slidecontainer {
+  width: 45%;
+  float: left;
+  margin: 25px 5px 5px 10px ;
+  color: #FB753C;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 100%; 
+  height: 10px; 
+  background: #774A4A; 
+  outline: none; 
+  opacity: 0.7; 
+  -webkit-transition: .2s; 
+  transition: opacity .2s;
+  border-radius: 5px;
+}
+
+.slider:hover {
+  opacity: 1; 
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 15px; 
+  height: 15px; 
+  background: #d56d41; 
+  cursor: pointer; 
+  border-radius: 8px;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px; 
+  height: 15px;
+  background: #4CAF50; 
+  cursor: pointer; 
+  border-radius: 5px;
+}
+
+.item-list-order-div .personalise{
+  border-right: 2px solid black;
+}
+
+.item-list .item-name-wrapper{
+  padding: 25px 0 0 25px;
+  color: #FB753C;
+}
+
+.item-list .item-name-wrapper .item-name{
+font-weight: bold;
+}
+
+.user-reg-wrapper li {
+  margin-bottom: 15px;
+}
+
+.user-reg-wrapper input {
+  border: 0px none;
+  border-bottom: 3px solid grey;
+  width: 300px;
+  height: 25px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: grey;
+  font-size: 20px;
+}
+.new-user-label {
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+}
+
+body {
+  /* background:#ddd; */
+  font-family: "Raleway";
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-circle {
+  /* position: absolute; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #eee;
+  border: 3px solid #ccc;
+  box-shadow: inset 0 12px 3px -7px #fff, 0 16px 12px rgba(0, 0, 0, 0.1);
+  /* z-index: 1; */
+}
